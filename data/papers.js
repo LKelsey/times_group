@@ -1,0 +1,85 @@
+// Recent papers from group members that fall within the TIMES scope.
+//
+// Add new papers at the top. Fields:
+//   arxiv:   arXiv ID, e.g. "2607.28265"
+//   title:   paper title
+//   authors: short author string; group members' names are bolded automatically
+//   date:    "YYYY-MM" (arXiv submission)
+//   tags:    any of "GW", "EM", "Inference", "AI", "Software", "Perspective"
+//   featured: true  (optional; highlights the paper)
+//
+// scripts/arxiv_candidates.py lists new arXiv papers by group members that aren't here yet.
+
+window.TIMES = window.TIMES || {};
+
+TIMES.papers = [
+  { arxiv: "2609.35697", date: "2026-09", tags: ["EM"],
+    title: "JWST unveils a dust-obscured supernova associated with a gamma-ray burst",
+    authors: "B. Schneider, A. J. Levan, N. Sarin, N. A. Rakotondrainibe, et al." },
+  { arxiv: "2608.27567", date: "2026-08", tags: ["EM", "Software"],
+    title: "Exploring the capabilities of combined modelling strategies for supernova with relativistic jets using Redback",
+    authors: "L. Cotter, N. Sarin, A. Martin-Carrillo" },
+  { arxiv: "2608.20262", date: "2026-08", tags: ["GW", "EM", "Inference"],
+    title: "Probabilistic kilonova prediction from gravitational wave inferred binary neutron star parameters",
+    authors: "X.-F. Dong, I. S. Heng, G. P. Lamb, C. Messenger, et al." },
+  { arxiv: "2607.28265", date: "2026-07", tags: ["GW", "Inference"], featured: true,
+    title: "Ab Initio Real-Time Gravitational-Wave Parameter Estimation",
+    authors: "D. Yallup, M. Prathaban, J. Alvey, T. C. K. Ng, T. Wouters, N. Sarin, W. Handley" },
+  { arxiv: "2607.17488", date: "2026-07", tags: ["EM", "Inference"],
+    title: "Surrogate models for type II supernovae: Probing low-energy explosions and interaction-free regimes",
+    authors: "Z. Zhang, S. Zha, N. Sarin, T. J. Moriya, et al." },
+  { arxiv: "2607.00081", date: "2026-06", tags: ["EM", "Inference"],
+    title: "Decoding the Early-Time Light Curves of Type Ia Supernovae. II. Population Parameters of One Thousand ZTF Supernovae",
+    authors: "C. Liu, A. A. Miller, N. Sarin, K. Maguire, et al." },
+  { arxiv: "2606.23780", date: "2026-06", tags: ["EM"],
+    title: "Signatures of ⁵⁶Ni Mixing and Neutron-rich Ejecta in Supernovae",
+    authors: "N. Sarin" },
+  { arxiv: "2606.10011", date: "2026-06", tags: ["EM"],
+    title: "A Multi-Wavelength View of the First Type Ic-BL Supernova with an Einstein Probe X-ray Shock Breakout",
+    authors: "J. C. Rastinejad, G. Srinivasaragavan, N. Sarin, T. O'Dwyer, et al." },
+  { arxiv: "2606.05285", date: "2026-06", tags: ["AI", "EM"],
+    title: "Toward decision-aware AI for LSST-scale time-domain astronomy",
+    authors: "C. R. Bom, A. Mahabal, F. Bianco, P. Darc, et al." },
+  { arxiv: "2605.24082", date: "2026-05", tags: ["GW", "Inference"],
+    title: "Detecting Gravitational-Wave Anisotropies with Simulation-Based Inference",
+    authors: "A.-M. Lemke, A. Mitridate, T. Konstandin, M. Pieroni, J. Alvey" },
+  { arxiv: "2605.19571", date: "2026-05", tags: ["EM"],
+    title: "From mass-loss histories to lightcurves: a generalised framework for interaction-powered transients",
+    authors: "N. Sarin, R. Hirai" },
+  { arxiv: "2605.13983", date: "2026-05", tags: ["EM", "Inference"],
+    title: "Rapid and robust simulation-based inference for kilonovae",
+    authors: "S. M. Brown, M. Bulla, H. V. Peiris, N. Sarin, et al." },
+  { arxiv: "2602.08459", date: "2026-02", tags: ["GW", "EM"],
+    title: "Identifying Host Galaxies of Binary Black Hole Mergers with Next-Generation Gravitational Wave Detector Networks",
+    authors: "S. Biswas, A. Levan, P. G. Jonker, K. Ackley, et al." },
+  { arxiv: "2602.05169", date: "2026-02", tags: ["GW", "EM"],
+    title: "Searching for gravitational waves from compact binary mergers powering long gamma-ray bursts during LIGO-Virgo-KAGRA's O3 run",
+    authors: "M. R. Sinha, T. A. Clarke, Q. Zhang, N. Sarin, et al." },
+  { arxiv: "2602.02677", date: "2026-02", tags: ["EM", "Inference"],
+    title: "Lightcurve Modelling of 2,205 ZTF DR2 Type Ia Supernovae: Implications for SN Ia Physics and Cosmology",
+    authors: "N. Sarin, E. Lindsjö, L. Kelsey, M. Grayling, et al." },
+  { arxiv: "2601.04406", date: "2026-01", tags: ["EM", "Inference"],
+    title: "Can tidal disruption event models reliably measure black hole masses?",
+    authors: "C. R. Angus, A. J. Smith, D. Magill, P. Ramsden, et al." },
+  { arxiv: "2601.03372", date: "2026-01", tags: ["EM"],
+    title: "Multiwavelength Modeling of the Luminous Fast Blue Optical Transient AT2024wpp",
+    authors: "C. M. B. Omand, N. Sarin, G. P. Lamb, D. A. Perley, et al." },
+  { arxiv: "2512.15010", date: "2025-12", tags: ["EM", "Perspective"],
+    title: "GRBs and Relativistic Transients in the 2040s",
+    authors: "N. Sarin, A. Levan, N. Tanvir, S. Scaringi, et al." },
+  { arxiv: "2512.14546", date: "2025-12", tags: ["GW", "EM", "Perspective"],
+    title: "Multi-messenger and time-domain astronomy in the 2040s",
+    authors: "S. Nissanke, N. Sarin, C. Copperwheat, S. Antier, et al." },
+  { arxiv: "2509.24949", date: "2025-09", tags: ["GW", "Inference"],
+    title: "Parallel Nested Slice Sampling for Gravitational Wave Parameter Estimation",
+    authors: "D. Yallup, M. Prathaban, J. Alvey, W. Handley" },
+  { arxiv: "2509.04336", date: "2025-09", tags: ["GW", "Inference", "Software"],
+    title: "Gravitational-wave inference at GPU speed: A bilby-like nested sampling kernel within blackjax-ns",
+    authors: "M. Prathaban, D. Yallup, J. Alvey, M. Yang, et al." },
+  { arxiv: "2506.02107", date: "2025-06", tags: ["EM", "Inference"],
+    title: "Surrogate models for lightcurves and photosphere properties of Type II supernovae",
+    authors: "N. Sarin, T. J. Moriya, A. Singh, A. Gangopadhyay, et al." },
+  { arxiv: "2505.16795", date: "2025-05", tags: ["GW", "Inference"],
+    title: "Sequential simulation-based inference for extreme mass ratio inspirals",
+    authors: "P. S. Cole, J. Alvey, L. Speri, C. Weniger, et al." },
+];

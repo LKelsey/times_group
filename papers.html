@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papers · THE TIMES</title>
+  <meta name="description" content="Recent papers from members of THE TIMES group.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="data/site.js"></script>
+  <script src="data/members.js"></script>
+  <script src="data/papers.js"></script>
+  <script src="assets/js/site.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <header class="page-head"><div class="wrap">
+      <p class="kicker">Papers</p>
+      <h1 class="headline">Recent papers</h1>
+      <p class="lede">Recent work by group members on GW and EM transients. Group members are in bold.</p>
+    </div></header>
+
+    <section class="block"><div class="wrap">
+      <div data-render="papers"></div>
+      <p class="muted small" style="margin-top:28px">
+        Missing a paper? Add it to <code>data/papers.js</code> or tell us on Slack.
+        Large collaboration papers (LVK, IceCube) are left out to keep this list readable.
+      </p>
+    </div></section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

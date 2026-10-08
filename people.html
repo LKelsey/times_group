@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>People · THE TIMES</title>
+  <meta name="description" content="The people of THE TIMES group, led by Nikhil Sarin and James Alvey.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="data/site.js"></script>
+  <script src="data/members.js"></script>
+  <script src="assets/js/site.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <header class="page-head"><div class="wrap">
+      <p class="kicker">People</p>
+      <h1 class="headline">Who we are</h1>
+      <p class="lede">Students, postdocs and staff working on transients, gravitational waves and inference.</p>
+    </div></header>
+
+    <section class="block"><div class="wrap">
+      <div class="section-head"><h2>Organisers</h2></div>
+      <div class="pi-grid" data-render="pis"></div>
+    </div></section>
+
+    <section class="block"><div class="wrap">
+      <div class="section-head">
+        <h2>Members</h2>
+        <a class="mono" href="https://github.com/nikhil-sarin/times_group/blob/main/data/members.js">Add yourself →</a>
+      </div>
+      <div data-render="members"></div>
+    </div></section>
+
+    <section class="block"><div class="wrap">
+      <div class="section-head"><h2>Alumni</h2></div>
+      <div data-render="alumni"></div>
+    </div></section>
+
+    <section class="block"><div class="wrap">
+      <h2>Join the list</h2>
+      <ol class="steps">
+        <li><strong>Edit <code>data/members.js</code>.</strong> Copy the template at the top of the file into the <code>members</code> list.</li>
+        <li><strong>Add a photo (optional).</strong> Put a square image in <code>assets/img/people/</code> and point <code>photo</code> at it. Without one, your initials are shown.</li>
+        <li><strong>Open a pull request,</strong> or send your details to the organisers on Slack.</li>
+      </ol>
+    </div></section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

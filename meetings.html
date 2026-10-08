@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meetings · THE TIMES</title>
+  <meta name="description" content="When and where THE TIMES meets, meeting formats, the term schedule and how to get in touch.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="data/site.js"></script>
+  <script src="data/schedule.js"></script>
+  <script src="assets/js/site.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <header class="page-head"><div class="wrap">
+      <p class="kicker">Logistics</p>
+      <h1 class="headline">Meetings</h1>
+      <p class="lede">One hour a week, open to anyone. Here's when, where and how.</p>
+    </div></header>
+
+    <section class="block"><div class="wrap">
+      <div class="facts" data-render="facts"></div>
+    </div></section>
+
+    <section class="block"><div class="wrap">
+      <h2>Formats</h2>
+      <p class="muted" style="margin-top:-6px">We alternate between three formats.</p>
+      <div class="formats">
+        <article class="format">
+          <h3>News + talk</h3>
+          <p>Recent news and updates, then a 30-minute talk from a group member or a visitor.</p>
+        </article>
+        <article class="format">
+          <h3>Journal club</h3>
+          <p>A detailed discussion of a few specific papers.</p>
+        </article>
+        <article class="format">
+          <h3>Round table</h3>
+          <p>Everyone gives a quick update (bring a plot!) and we discuss.</p>
+        </article>
+      </div>
+      <p class="muted small" style="margin-top:16px">We also run occasional tutorials on modelling, inference, agentic AI and data/observations. See <a href="software.html">Software</a>.</p>
+    </div></section>
+
+    <section class="block" id="schedule"><div class="wrap">
+      <div class="section-head"><h2>This term</h2><span class="mono muted">Speakers and formats announced on Slack</span></div>
+      <div data-render="schedule"></div>
+    </div></section>
+
+    <section class="block"><div class="wrap">
+      <div class="columns">
+        <div class="col" style="border-top:0">
+          <h2>Get involved</h2>
+          <ol class="steps">
+            <li><strong>Join the Slack channel.</strong> It's on the IoA Slack, so check you can access that workspace first.</li>
+            <li><strong>Have a visitor?</strong> If they want to speak and fit the <a href="research.html">scope</a>, let us know and we'll find a slot.</li>
+            <li><strong>Want to present?</strong> Internal talks, progress updates and tutorials are all welcome.</li>
+            <li><strong>Seen a good paper?</strong> Post it on Slack for news or suggest it for journal club.</li>
+          </ol>
+        </div>
+        <div class="col" id="contact" style="border-top:0">
+          <h2>Contact</h2>
+          <p>Get in touch with the organisers:</p>
+          <div data-render="contacts"></div>
+        </div>
+      </div>
+    </div></section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
