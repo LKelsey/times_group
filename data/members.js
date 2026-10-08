@@ -24,7 +24,7 @@ TIMES.pis = [
     role: "Co-lead",
     title: "Kavli Senior Fellow / Assistant Research Professor, University of Cambridge",
     photo: "https://github.com/nikhil-sarin.png",
-    interests: ["EM transients", "Gamma-ray bursts", "Kilonovae", "Supernovae", "Multi-messenger astrophysics", "Redback"],
+    interests: ["EM transients", "Gamma-ray bursts", "Kilonovae", "Supernovae", "Multi-messenger astrophysics", "Gravitational-wave inference", "Neutron stars", "Massive-star stellar evolution"],
     github: "nikhil-sarin",
     website: "https://nikhil-sarin.github.io",
     arxiv: "https://arxiv.org/search/?searchtype=author&query=Sarin%2C+Nikhil",

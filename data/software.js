@@ -43,12 +43,74 @@ TIMES.software = [
     ],
   },
   {
+    name: "redback-csm",
+    status: "active",
+    area: "EM transients · CSM",
+    description:
+      "Fortran-based circumstellar-matter interaction models that plug straight into Redback, " +
+      "so interaction-powered transients can be fitted like any built-in model.",
+    links: [
+      ["GitHub", "https://github.com/nikhil-sarin/redback-csm"],
+      ["Docs", "https://redback-csm.readthedocs.io/en/latest/"],
+      ["Paper", "https://arxiv.org/abs/2605.19571"],
+    ],
+  },
+  {
+    name: "LightCurveLynx",
+    status: "stable",
+    area: "Time domain · Simulation",
+    description:
+      "A fast, flexible package for realistic light-curve simulations, for testing observing strategies, " +
+      "characterising biases and validating pipelines. Developed by LINCC Frameworks.",
+    links: [
+      ["GitHub", "https://github.com/lincc-frameworks/lightcurvelynx"],
+      ["Docs", "https://lightcurvelynx.readthedocs.io/"],
+      ["PyPI", "https://pypi.org/project/lightcurvelynx/"],
+    ],
+  },
+  {
     name: "Modular-Jim",
     status: "soon",
     area: "Gravitational waves · JAX",
     description:
       "Modular gravitational-wave parameter estimation in JAX with nested sampling. Ask us about it.",
     links: [],
+  },
+  {
+    name: "Peregrine",
+    status: "active",
+    area: "Gravitational waves · SBI",
+    description:
+      "Simulation-based inference for gravitational-wave signals, built on swyft's truncated marginal neural ratio estimation. " +
+      "Far more sample-efficient than traditional samplers for compact binary mergers.",
+    links: [
+      ["GitHub", "https://github.com/PEREGRINE-GW/peregrine"],
+      ["Paper", "https://arxiv.org/abs/2304.02035"],
+    ],
+  },
+  {
+    name: "Saqqara",
+    status: "active",
+    area: "Gravitational waves · SBI",
+    description:
+      "Simulation-based inference for stochastic gravitational-wave backgrounds, including LISA analyses with " +
+      "sub-threshold transients and time-dependent instrumental noise.",
+    links: [
+      ["GitHub", "https://github.com/PEREGRINE-GW/saqqara"],
+      ["Paper", "https://arxiv.org/abs/2309.07954"],
+    ],
+  },
+  {
+    name: "BlackJAX nested sampling for GWs",
+    status: "active",
+    area: "Gravitational waves · GPU",
+    description:
+      "A bilby-like gravitational-wave likelihood running inside the GPU-accelerated nested sampler in blackjax-ns, " +
+      "for fast GW parameter estimation.",
+    links: [
+      ["blackjax-ns", "https://github.com/handley-lab/blackjax"],
+      ["Paper", "https://arxiv.org/abs/2509.04336"],
+    ],
   },
   {
     name: "SNAX",
@@ -65,15 +127,14 @@ TIMES.software = [
     links: [],
   },
   {
-    name: "BlackJAX nested sampling for GWs",
+    name: "NSArxivApp",
     status: "active",
-    area: "Gravitational waves · GPU",
+    area: "Agentic AI · Literature",
     description:
-      "A bilby-like gravitational-wave likelihood running inside the GPU-accelerated nested sampler in blackjax-ns, " +
-      "for fast GW parameter estimation.",
+      "A personal arXiv knowledge base: triage new papers against your interests, get LLM summaries, chat with papers, " +
+      "run semantic search across your library and explore connections in a knowledge graph.",
     links: [
-      ["blackjax-ns", "https://github.com/handley-lab/blackjax"],
-      ["Paper", "https://arxiv.org/abs/2509.04336"],
+      ["GitHub", "https://github.com/nikhil-sarin/NSArxivApp"],
     ],
   },
   {
