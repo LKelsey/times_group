@@ -44,7 +44,15 @@ TIMES.pis = [
 ];
 
 TIMES.members = [
-  // Add members here using the template above.
+  {
+    name: "Toby Lovick",
+    role: "PhD student",
+    photo: "assets/img/people/toby.jpg",
+    interests: ["Nested Sampling", "Hierarchical Modelling", "Gravitational-wave inference", "Agentic AI for science"],
+    github: "tobyLovick",
+    arxiv: "https://arxiv.org/search/?searchtype=author&query=Lovick%2C+Toby",
+    email: "",
+  },
 ];
 
 TIMES.alumni = [
