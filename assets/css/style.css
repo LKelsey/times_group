@@ -293,9 +293,18 @@ section.block:last-of-type { border-bottom: 0; }
 }
 .links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-family: var(--mono); font-size: 13px; }
 
-.member-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
-.member { background: var(--card); border: 1px solid var(--rule); padding: 14px; }
-.member .avatar { margin-bottom: 12px; }
+.member-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); }
+.member {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  column-gap: 16px;
+  align-content: start;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: 14px;
+}
+.member .avatar { grid-column: 1; grid-row: 1 / span 10; }
+.member > :not(.avatar) { grid-column: 2; }
 .member h3 { font-size: 21px; }
 .member .role { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
 
