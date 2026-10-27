@@ -53,6 +53,17 @@ TIMES.members = [
     arxiv: "https://arxiv.org/search/?searchtype=author&query=Lovick%2C+Toby",
     email: "",
   },
+
+    {
+    name: "Lisa Kelsey",
+    role: "Leverhulme and Isaac Newton Trust Early Career Fellow",
+    photo: "assets/img/people/lisa.jpg",
+    interests: ["Type Ia supernovae", "Host galaxy environments", "Supernova cosmology", "Gravitational-wave optical follow-up", "Surveys"],
+    github: "lkelsey",
+    website: "https://lkelsey.github.io",
+    arxiv: "https://arxiv.org/search/?searchtype=author&query=Kelsey%2C+Lisa",
+    email: "",
+  },
 ];
 
 TIMES.alumni = [
